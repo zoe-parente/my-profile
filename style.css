@@ -1,0 +1,97 @@
+body {
+	background-color: #FFC6D3;
+	color: #3A4F7A;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+     font-family: 'Vina Sans', cursive;;
+}
+
+h1 {
+color: hotpink;
+font-weight: 150;
+letter-spacing: 10px;
+font-size: 40px;
+}
+
+h2 {
+color: hotpink;
+font-weight: lighter;
+letter-spacing: 10px;
+font-size: 24px; 
+}
+
+a {
+	 font-family: 'Montserrat', sans-serif;
+	 text-decoration: none;
+	 color: hotpink;
+}
+  
+a:hover {
+	color: #3A4F7A;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+    	width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-blue {
+	background-color: hotpink;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #3A4F7A;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;	
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
